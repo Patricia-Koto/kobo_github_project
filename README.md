@@ -13,30 +13,6 @@ kobo_github_project/
 │   └── support_services.csv
 └── README.md
 ```
-## Principales améliorations
-- Roster détaillé des membres du ménage
-- Variables individuelles pour chaque membre :
-  - prénom
-  - nom
-  - sexe
-  - date de naissance
-  - âge calculé automatiquement
-  - lien avec le chef de ménage
-  - niveau d’instruction
-  - statut d’activité
-  - statut matrimonial
-- Modules conditionnels dédiés à des groupes spécifiques :
-  - **enfants**
-  - **femmes et filles**
-  - **retraités et personnes âgées**
-- Rubriques ménage consolidées sur :
-  - les enfants
-  - les femmes
-  - les personnes âgées
-- Calculs automatiques :
-  - âge à partir de la date de naissance
-  - ratio de dépendance
-  - solde mensuel du ménage
 
 ## Logique du formulaire
 Le formulaire est structuré en plusieurs rubriques :
