@@ -1,11 +1,18 @@
-# Questionnaire Kobo – Ménage détaillé et groupes spécifiques
+# Questionnaire Kobo – Ménage 
 
-Ce projet contient un formulaire **XLSForm** orienté secteur du développement, conçu pour démontrer une collecte de données ménage plus riche et plus réaliste.
+Ce projet contient un formulaire **XLSForm** orienté secteur du développement, conçu pour démontrer une collecte de données ménage plus riche et plus réaliste en utilisant plusieurs types de variables.
 
-## Contenu
-- `forms/kobo_xlsform_menage_detaille_style.xlsx` : formulaire principal
-- `README.md` : description du projet
+## Fichiers du projet
 
+```text
+kobo_github_project_v2/
+├── forms/
+│   └── kobo_xlsform_menage.xlsx
+├── external_choices/
+│   ├── villages.csv
+│   └── support_services.csv
+└── README.md
+```
 ## Principales améliorations
 - Roster détaillé des membres du ménage
 - Variables individuelles pour chaque membre :
@@ -50,15 +57,16 @@ Le champ âge est calculé automatiquement à partir de la date de naissance :
 int((today() - ${member_dob}) div 365.25)
 ```
 
-## Utilisation dans KoboToolbox
-1. Ouvrir KoboToolbox
-2. Créer un nouveau projet
-3. Importer le fichier XLSForm
-4. Vérifier le déploiement
-5. Tester le formulaire dans l’aperçu
+## Import dans KoboToolbox
 
-## Remarque
-Le fichier a été stylisé pour ressembler à un classeur XLSForm professionnel :
-- en-têtes turquoise foncé
-- sections visuellement distinguées
-- lignes de calcul, note, groupe et repeat colorées
+
+1. Ouvre KoboToolbox.
+2. Crée un nouveau projet à partir d’un fichier XLSForm.
+3. Importe `forms/kobo_xlsform_menage.xlsx`.
+4. Si Kobo demande les listes externes, ajoute aussi :
+   - `external_choices/villages.csv`
+   - `external_choices/support_services.csv`
+
+## Auteur
+Patricia KOTO
+
