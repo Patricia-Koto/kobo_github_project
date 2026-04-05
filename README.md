@@ -5,7 +5,7 @@ Ce projet contient un formulaire **XLSForm** orienté secteur du développement,
 ## Fichiers du projet
 
 ```text
-kobo_github_project_v2/
+kobo_github_project/
 ├── forms/
 │   └── kobo_xlsform_menage.xlsx
 ├── external_choices/
